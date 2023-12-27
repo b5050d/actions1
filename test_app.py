@@ -11,6 +11,7 @@ class TestMyApp(unittest.TestCase):
     def test_init(self):
         self.assertEqual(self.myApp.myString,"Hello")
         self.assertEqual(type(self.myApp.timeout),int)
+        # self.assertEqual(10,12)
 
     def test_fakeMethod(self):
         ans = self.myApp.fakeMethod(68)
